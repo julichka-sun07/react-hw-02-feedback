@@ -1,0 +1,24 @@
+.button {
+  font: inherit;
+  color: white;
+  font-weight: 500;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 250px;
+  max-height: 100%;
+  background-color: rgb(131, 70, 188);
+  cursor: pointer;
+}
+.button:hover {
+  background-color: rgb(110, 16, 110);
+}
+.div {
+  background-color: rgb(131, 70, 188);
+  margin: 0px 20px 0px 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
